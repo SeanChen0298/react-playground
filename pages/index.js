@@ -1,7 +1,4 @@
-import * as React from "react";
-
-//get useState from React
-const { useState } = React;
+import { useState } from "react";
 
 export default function App() {
   const [counter, setCounter] = useState(0);
@@ -20,7 +17,6 @@ export default function App() {
       >
         Increase Counter
       </button>
-
     </div>
   );
 }
